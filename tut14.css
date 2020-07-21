@@ -1,0 +1,17 @@
+/* element selector */
+p{
+    border: 2px solid red;
+}
+/* id selector */
+#redElemnt{
+    color: yellow;
+}
+/* class selector */
+.firstPara{
+    background-color: turquoise;
+}
+/* combine */
+footer,span{
+    background-color: pink;
+
+}

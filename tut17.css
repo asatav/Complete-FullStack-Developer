@@ -1,0 +1,12 @@
+#firstpara{
+    /* color by name */
+    color: red;
+}
+#secondpara{
+    /* color by rgb value */
+    color: rgb(58, 566, 12);
+}
+#thirdpara{
+    /* color by hex */
+    color: #60DCA4;
+}
