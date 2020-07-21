@@ -1,0 +1,10 @@
+.container{
+    background-color: burlywood;
+    border: 3px solid  rgb(65, 65, 201);
+    border-radius: 23px;
+    padding: 34px 19px;
+    margin: 14px 9px;
+    width: 233px;
+    box-sizing: border-box;
+
+}

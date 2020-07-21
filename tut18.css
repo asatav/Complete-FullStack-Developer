@@ -1,0 +1,28 @@
+#firstpara{
+    background-color: royalblue;
+    height: 100px;
+    width: 455px;
+    border: 2px solid green;
+    border-radius: 11px;
+}
+#secondpara{
+    background-color: rgb(58, 234, 98);
+    height: 100px;
+    width: 455px;
+    border-top: 2px solid violet;
+    border-right: 2px solid yellow;
+    border-bottom: 2px solid rgb(129, 43, 241);
+    border-left: 2px solid rgb(34, 214, 64);
+    border-top-left-radius: 13px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+}
+#thirdpara{
+    height: 100px;
+    width: 455px;
+    background-image: url('https://source.unsplash.com/user/erondu/');
+    border: 2px solid red;
+    background-position: center center;
+   
+}
