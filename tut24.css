@@ -1,0 +1,24 @@
+.container{
+    border: 2px solid rebeccapurple;
+    background-color: plum;
+    height: 3444px;
+}
+.box{
+
+    display: inline-block;
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+}
+#box3{
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+    /* right: 4px;
+    bottom: 2px; */
+    /* top: 134px;
+    left: 134px; */
+    position: sticky;
+    top: 3px;
+}
