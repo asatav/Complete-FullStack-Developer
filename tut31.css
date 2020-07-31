@@ -1,0 +1,40 @@
+input{
+    display: block;
+}
+.container{
+    margin: 32px 12px;
+    display: block;
+    width: 233px;
+    margin: auto;
+}
+input[type='text']{
+    padding: 23px;
+    border: 2px solid red;
+}
+a[target]{
+    font-size: 34px;
+    color: violet;
+}
+a[target='_self']{
+    font-size: 34px;
+    color: blue;
+}input[type='password']{
+    padding: 23px;
+    color: yellow;
+    border: 4px dotted rgb(40, 207, 143);
+}
+/* li:nth-child(3){
+    color: cyan;
+}
+li:nth-child(2n+0){
+    color: red;
+} */
+/* li:nth-child(3n+3){
+    color: red;
+} */
+li:nth-child(odd){
+    color: yellow;
+}
+li:nth-child(even){
+    color: green;
+}
