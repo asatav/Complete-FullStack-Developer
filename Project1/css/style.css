@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* css variable */
+:root{
+    --navbar-height:59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+
+
+}
+/* logo and image */
+#logo{
+    margin: 8px 30px;
+}
+#logo img{
+height: 56px;
+margin: 3px 4px;
+}
+/* list styling */
+#navbar ul{
+    display: flex;
+
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+#navbar ul li{
+    display: flex;
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
