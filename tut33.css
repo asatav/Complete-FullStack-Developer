@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+}
+.card{
+    padding: 23px 12px;
+    margin: 23px 12px;
+    /* border: 2px solid red; */
+    background-color: rosybrown;
+    /* box-shadow: 10px 10px green; */
+    /* box-shadow: -10px -10px green; */
+    /* box-shadow: 7px 5px  10px green; */
+    /* box-shadow: -7px -5px  10px green; */
+    /* box-shadow: -7px -5px  10px 5px green; */
+    /* box-shadow: -7px -5px  10px 5px rgba(190, 230, 46, 0.6); */
+    /* box-shadow: inset 3px 5px red; */
+    box-shadow: 3px 5px red,4px 6px green;
+}
+.card h1{
+    /* text-shadow: 3px 4px red; */
+    text-shadow: -3px -4px red;
+}
