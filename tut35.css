@@ -1,0 +1,45 @@
+.container{
+    background-color: goldenrod;
+}
+.box{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* animation-name: arnav; */
+    animation-name: arnav1;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+    /* animation-fill-mode: forwards; */
+    /* animation-timing-function: ease-out; */
+    /* animation-delay: 3s; */
+    /* animation-direction: reverse; */
+    /* animation: arnav1 8s ease-in 2 ; */
+}
+@keyframes arnav{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 400px;
+    }
+}
+@keyframes arnav1{
+    0%{
+        top:0px;
+        left: 0px;
+    }
+   25%{
+        top: 250px;
+        left: 0px;
+    }
+    75%{
+        top: 250px;
+        left: 250px;
+    }
+    100%{
+        top: 0px;
+        left: 250px;
+    }
+}
+
