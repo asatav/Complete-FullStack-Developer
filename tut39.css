@@ -1,0 +1,11 @@
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 4fr;
+    grid-auto-rows: 3fr;
+    grid-template-columns: repeat(2,4fr);
+    grid-gap: 1rem;
+}
+.box{
+    background: red;
+    border: 2px solid black;
+}
