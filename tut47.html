@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String functions</title>
+</head>
+<body>
+
+  <script>
+      var str='this is a string'
+      console.log(str)
+      var position=str.indexOf('is');
+      console.log(position)
+      var position=str.lastIndexOf('is');
+      console.log(position)
+
+      var substr1=str.slice(1,5)
+      console.log(substr1)
+      var substr2=str.substr(1,3)
+      console.log(substr2)
+
+      var replaced = str.replace('string','Arnav');
+      console.log(str)
+      console.log(replaced)
+
+      console.log(str.toUpperCase())
+      console.log(str.toLowerCase())
+
+      var newString=str.concat('New String')
+      console.log(newString)
+
+      var stwithwhitespace="         this contains      whitespaces       ";
+      console.log(stwithwhitespace.trim())
+
+      var char3=str.charAt(2)
+      console.log(char3)
+
+      var char4=str.charCodeAt(2)
+      console.log(char4)
+
+      console.log(str[3])
+  </script> 
+</body>
+</html>
